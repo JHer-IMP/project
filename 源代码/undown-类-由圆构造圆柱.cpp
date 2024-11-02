@@ -14,6 +14,25 @@ protected:
 };
 
 
+Circle::Circle(void):mR(0) {}
+Circle::Circle(float r):mR(r) {}
+
+float Circle::getArea()
+{
+    return PI*mR*mR;
+}
+
+float Circle::getGirth()
+{
+    return 2*PI*mR;
+}
+
+class Cylinder
+{
+    //
+};
+
+
 //main.cpp
 //#include"Cylinder.h"
 //#include"Circle.h"
